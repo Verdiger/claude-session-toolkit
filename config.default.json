@@ -1,0 +1,28 @@
+{
+  "guard": {
+    "five_hour_threshold": 95,
+    "seven_day_threshold": 90,
+    "model_weekly_threshold": 95,
+    "warn_margin": 5,
+    "stale_seconds": 900,
+    "refire_seconds": 120,
+    "poll_fallback": true,
+    "poll_every_calls": 25
+  },
+  "resume": {
+    "delay_seconds": 120,
+    "permission_mode": "acceptEdits"
+  },
+  "harvest": {
+    "enabled": true,
+    "apply_mode": "propose",
+    "idle_minutes": 45,
+    "max_session_age_hours": 24,
+    "min_transcript_kb": 30,
+    "min_digest_chars": 3000,
+    "digest_max_kb": 60,
+    "max_runs_per_day": 3,
+    "model": "sonnet",
+    "inbox_dir": "~/claude-harvest"
+  }
+}

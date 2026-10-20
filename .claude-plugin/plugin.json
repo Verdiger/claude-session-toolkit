@@ -1,0 +1,10 @@
+{
+  "name": "claude-session-toolkit",
+  "version": "0.1.0",
+  "description": "Two skills for long Claude Code sessions: usage-handoff (stop cleanly at a usage limit, write a handoff, auto-resume after reset) and knowledge-harvest (turn what you learned into skills and memory, including an opt-in idle-session harvest).",
+  "author": { "name": "Verdiger" },
+  "homepage": "https://github.com/Verdiger/claude-session-toolkit",
+  "license": "MIT",
+  "keywords": ["usage-limits", "handoff", "resume", "skills", "memory", "knowledge-capture"],
+  "skills": "./skills/"
+}

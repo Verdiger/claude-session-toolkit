@@ -1,0 +1,14 @@
+{
+  "name": "claude-session-toolkit",
+  "owner": {
+    "name": "Verdiger"
+  },
+  "plugins": [
+    {
+      "name": "claude-session-toolkit",
+      "source": "./",
+      "description": "usage-handoff and knowledge-harvest skills for long Claude Code sessions."
+    }
+  ],
+  "description": "Skills for long Claude Code sessions: usage-limit handoff with auto-resume, and knowledge harvesting."
+}
